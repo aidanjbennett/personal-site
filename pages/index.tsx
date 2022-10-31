@@ -14,6 +14,13 @@ export default function Home() {
 			<main className={styles.main}>
 				<h2>Hi, I am Aidan Bennett,</h2>
 				<h2>a full stack software engineer</h2>
+				<Image
+					className={styles.me}
+					src='/profilePicture.jpg'
+					alt='Aidan '
+					width={400}
+					height={400}
+				/>
 				<p>
 					I am a full stack software engineer I primarily use JavaScript, Python
 					and Docker. Right now I am playing with Rust and Go. However, I would
