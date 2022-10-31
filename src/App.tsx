@@ -9,6 +9,7 @@ export default function App(): JSX.Element {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/404" element={<NotFoundPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
