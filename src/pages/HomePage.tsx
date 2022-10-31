@@ -10,7 +10,6 @@ export default function HomePage(): JSX.Element {
       <Helmet>
         <title>Home | Aidan Bennett</title>
       </Helmet>
-      {/* <NavBar /> */}
       <div className="content">
         <div className="about">
           <h2>Hi, I am Aidan Bennett,</h2>
